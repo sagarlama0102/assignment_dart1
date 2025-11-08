@@ -8,9 +8,9 @@ import 'student_account.dart';
 void main() {
   Bank bank = Bank();
 
-  var sa = SavingsAccount(accountHolderName: "Sagar", accountNumber: 101, balance: 10000);
-  var vi = CheckingAccount(accountHolderName: "Vinayak", accountNumber: 102, balance: 50000);
-  var an = PremiumAccount(accountHolderName: "Anish", accountNumber: 103, balance: 200000);
+  var sa = SavingsAccount(accountHolderName: "Sagar", accountNumber: 101, balance: 20000);
+  var vi = CheckingAccount(accountHolderName: "Vinayak", accountNumber: 102, balance: 25000);
+  var an = PremiumAccount(accountHolderName: "Anish", accountNumber: 103, balance: 203000);
   var bi = StudentAccount(accountHolderName: "Bidhan", accountNumber: 104, balance: 3000);
 
   bank.addAccount(sa);
